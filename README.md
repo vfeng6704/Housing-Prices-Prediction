@@ -22,11 +22,6 @@ This analysis explores the change in prices for single-family homes and condos i
 - **Model Construction**:
   - Variables included ZIP code, neighborhood, gross and land square footage, building classification, and sale timing.
   - ZIP codes were grouped using Tukey’s test; neighborhoods were grouped by mean purchase prices.
-  - The model equation:
-    \[
-    \text{Price} = \beta_0 + \beta_1 \times (\text{Gross Sq. Ft.}) + \beta_2 \times (\text{Land Sq. Ft.}) + \beta_3 \times (\text{Interaction Term}) + \text{Other Predictors} + \epsilon
-    \]
-
 ## Results
 
 - **Performance**: 
